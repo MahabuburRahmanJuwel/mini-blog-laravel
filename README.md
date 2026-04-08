@@ -57,3 +57,38 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+# Mini Blog System (Laravel)
+
+## Features
+- Authentication (Laravel Breeze)
+- Category & Post system
+- Create Post with category
+- Validation
+- Dashboard
+
+## Setup Instructions
+
+1. Clone the project
+2. Run:
+   composer install
+   npm install
+   npm run dev
+
+3. Copy .env:
+   cp .env.example .env
+
+4. Set database
+
+5. Run:
+   php artisan key:generate
+   php artisan migrate
+
+6. Start server:
+   php artisan serve
+
+
+
+
